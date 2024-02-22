@@ -72,7 +72,7 @@ h5{
     min-height: 100px;
     background-color: #333;
     color: #F2F2F2;
-    padding: 0 40px;
+    padding: 0 10px;
 }
 
 .logo{
@@ -316,7 +316,7 @@ h5{
     align-items: center;
   }
   .swiper-slide img{
-    width: 58%;
+    width: 80%;
     object-fit: cover;
   }
   .swiper-button-next, .swiper-rtl .swiper-button-prev{
@@ -504,10 +504,50 @@ h5{
     }
 
 }
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     .info-img img{
         width: 300px;
         height: 300px;
+    }
+    .info-text{
+        text-align: left;
+        margin: 20px 10px;
+        align-items: center;
+        
+    }
+    h1{
+        margin-top: 50px;
+        margin-bottom: -10px;
+    }
+    .button a{
+        margin-top: -20px;
+        display: block;
+        font-size: 30px;
+        text-align: center;
+    }
+    .rulez-block{
+        display: flex;
+        justify-content: left;
+        margin-bottom: 20px;
+    }
+    h4{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .rulez-block img{
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+    }
+    .stage-blocks{
+        margin-top: 50px;
+    }
+    .stage-block{
+        padding:15px 0;
+        text-align: left;
+    }
+    .stage-block p{
+        margin: 0 10px;
     }
     h2{
         font-size: 28px;
@@ -531,9 +571,25 @@ h5{
      .advant-block img{
         margin-top: 50px;
      }
-     .rulez-block img{
-        margin-top: 30px;
-        margin-bottom: 5px;
+    .phone a{
+        color: black;
+        background-color: #004d73;
+        font-weight: 700;
+    }
+    .wats a{
+        background-color: #27d061;
+        color: black;
+        font-weight: 700;
+    }
+    .teleg a{
+        font-weight: 700;
+        color: black;
+        background-color: #0087d0;
+    }
+    .vk a{
+        font-weight: 700;
+        color: black;
+        background-color: #47668d ;
     }
     
 }
