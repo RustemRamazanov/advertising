@@ -24,6 +24,7 @@
  </script>
  <noscript><div><img src="https://mc.yandex.ru/watch/96837411" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
  <!-- /Yandex.Metrika counter -->
+
 </head>
 <body>
     <div class="wrapper">
@@ -286,18 +287,18 @@
     <script src="scripts/script.js"></script>
     <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
     <script>
-        $(document).ready(function(){
-      //Скрыть PopUp при загрузке страницы    
-      PopUpHide();
-  });
-  //Функция отображения PopUp
-  function PopUpShow(){
-      $("#popup1").show();
-  }
-  //Функция скрытия PopUp
-  function PopUpHide(){
-      $("#popup1").hide();
-  }
+        //Функция отображения PopUp
+function PopUpShow(){
+    $("#popup1").show();
+}
+//Функция скрытия PopUp
+function PopUpHide(){
+    $("#popup1").hide();
+}
+$(document).ready(function(){
+  //Скрыть PopUp при загрузке страницы    
+  PopUpHide();
+});
   </script>
 </body>
 </html>
