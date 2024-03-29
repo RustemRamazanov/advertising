@@ -462,14 +462,15 @@ iframe{
         margin-bottom: 30px;
     }
 }
+.container{
+    width: 100%;
+}
 
 @media (max-width: 1000px) {
     .advant-blocks{
         display: block;
     }
-    .container{
-        width: 100%;
-    }
+    
     .advant-block img{
         width: 80px;
         height: 80px;
