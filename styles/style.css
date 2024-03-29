@@ -462,9 +462,7 @@ iframe{
         margin-bottom: 30px;
     }
 }
-.container{
-    width: 100%;
-}
+
 
 @media (max-width: 1000px) {
     .advant-blocks{
@@ -483,6 +481,9 @@ iframe{
     
     .advant-blocks-items{
         margin-right: 0px;
+    }
+    .container{
+        width: 100%;
     }
 }
 
