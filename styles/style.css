@@ -24,9 +24,7 @@ body {
     width: 1200px;
     margin: 80px auto;
 }
-.footer-items2{
-    display: none;
-}
+
 
 h1{
     font-size: 56px;
@@ -158,22 +156,24 @@ h5{
 .info-text{
     margin-left: 100px;
     margin-top: 40px;
+    width: 500px;
 }
-
-
+.table-blocks{
+    display: flex;
+}
+.table-block{
+    margin-right: 100px;
+    font-size: 24px;
+}
 .line{
     margin: 20px 0;
 }
 
-.info-textp{
-    font-size: 24px;
-    margin-top: 30px;
-    color: #BDBDBD;
-}
 
 .button{
     margin: 50px auto;
 }
+
 .button a{
     text-decoration: none;
     color: #F2F2F2;
@@ -271,9 +271,42 @@ h5{
     display: flex;
     margin-bottom: 60px;
 }
-.footer-items{
+
+.footer-items2 a{
     display: flex;
-    justify-content: space-between;
+    background-color: #0226CC;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #BDBDBD;
+    width: calc(100%-20);
+    margin: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+.phone a{
+    color: black;
+    background-color: #004d73;
+    font-weight: 700;
+}
+.wats a{
+    background-color: #27d061;
+    color: black;
+    font-weight: 700;
+}
+.teleg a{
+    font-weight: 700;
+    color: black;
+    background-color: #0087d0;
+}
+.vk a{
+    font-weight: 700;
+    color: black;
+    background-color: #47668d ;
+}
+.lid a{
+    font-weight: 700;
+    color: black;
+    background-color: #0226CC ;
 }
 .message{
     height: 100px;
@@ -300,7 +333,7 @@ h5{
 .swiper{
     width: 100%;
     height: auto;
-    z-index: 2;
+    z-index: 3;
   }
   .swiper-slide{
     text-align: center;
@@ -322,6 +355,41 @@ h5{
     left: 140px !important; 
     right: auto;
   }
+
+.b-popup{
+    margin-top: 100px;
+    width:100%;
+    min-height:100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.b-popup .b-popup-content{
+    margin:40px auto 0px auto;
+    width:800px;
+    height: 800px;
+    padding:10px;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+iframe{
+    width:100%;
+    height: 700px;
+}
+
+.b-popup-content a{
+    text-decoration: none;
+    color: #F2F2F2;
+    background-color: #0226CC;
+    padding: 10px 50px;
+    font-size: 24px;
+    margin-left: 250px;
+    position: relative;
+    z-index: 2;
+}
 
 
 @media (max-width: 1500px) {
@@ -486,17 +554,13 @@ h5{
     .footer-items2{
         display: block;
     }
-    .footer-items2 a{
-        display: flex;
-        background-color: #0226CC;
-        border-radius: 30px;
-        text-decoration: none;
-        color: #BDBDBD;
-        width: calc(100%-20);
-        margin: 10px;
-        justify-content: center;
-        padding: 10px;
+    .b-popup{
+        width:100%;   
     }
+    .b-popup .b-popup-content{
+        width:100%;    
+    }
+    
 
 }
 @media (max-width: 600px) {
@@ -571,26 +635,6 @@ h5{
      .advant-block img{
         margin-top: 50px;
      }
-    .phone a{
-        color: black;
-        background-color: #004d73;
-        font-weight: 700;
-    }
-    .wats a{
-        background-color: #27d061;
-        color: black;
-        font-weight: 700;
-    }
-    .teleg a{
-        font-weight: 700;
-        color: black;
-        background-color: #0087d0;
-    }
-    .vk a{
-        font-weight: 700;
-        color: black;
-        background-color: #47668d ;
-    }
     
 }
 
@@ -598,3 +642,4 @@ h5{
     from {opacity: 0}
     to {opacity: 1}
 }
+
