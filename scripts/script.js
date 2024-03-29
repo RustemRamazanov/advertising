@@ -42,3 +42,11 @@ var swiper = new Swiper(".mySwiper", {
   });
 
   
+//Функция скрытия PopUp
+function PopUpHide(){
+  $("#popup1").hide();
+}
+$(document).ready(function(){
+//Скрыть PopUp при загрузке страницы    
+PopUpHide();
+});
